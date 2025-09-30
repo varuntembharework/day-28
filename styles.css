@@ -1,0 +1,48 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+p {
+    margin: 5px 0;
+}
+
+/* Common box style */
+.box {
+    width: 250px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Box 1: Margin only */
+.box1 {
+    background-color: lightcoral;
+    margin: 40px;   /* space outside the box */
+}
+
+/* Box 2: Padding only */
+.box2 {
+    background-color: lightseagreen;
+    padding: 30px;  /* space inside the box */
+}
+
+/* Box 3: Border only */
+.box3 {
+    background-color: lightskyblue;
+    border: 5px dashed darkblue; /* border style */
+}
+
+/* Box 4: Full Box Model */
+.box4 {
+    background-color: lightgoldenrodyellow;
+    margin: 20px;           /* outside spacing */
+    padding: 25px;          /* inside spacing */
+    border: 8px solid orange;
+}
